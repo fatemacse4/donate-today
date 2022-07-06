@@ -13,6 +13,10 @@ h1{
 h2{
     font-weight: 600;
     font-size: 50px;
+    margin-bottom: 10px;
+}
+p{
+    margin-bottom: 50px;
 }
 h3{
     font-weight: 400;
@@ -43,11 +47,17 @@ h3{
 .tomato-color{
     color: tomato;
 }
+.grey-color{
+    color: grey;
+}
+.donate-today-box .link-button{
+    margin-top: 20px;
+}
 .link-button{
     text-decoration: none;
     color: white;
     background-color: tomato;
-    margin-top: 2%;
+    margin-top: 30px;
     padding: 10px 30px;
     border-radius: 5px;
     font-weight: 700;
@@ -57,67 +67,44 @@ h3{
 }
 .align-center{
     text-align: center;
-}
-.donate-today-box{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+}  
 .flexible-container{
     display: inline-flex;
 }
-.donate-today p{
-    color: grey;
+.donate-today-box p{
+    margin-top: 60px;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 .box1{
-    display: inline-flex;
-    width: 130px;
-    height: 120px;
-    box-shadow: 130px 120px #faf7f7;
-    color: grey;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-radius: 5px;
+   background-color: #e6dfdf;
 }
-.box2{
-    display: inline-flex;
-    width: 130px;
-    height: 120px;
-    box-shadow: 130px 120px #ecc9c9;
-    color: grey;
-    border: 2px solid red;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-radius: 5px;
+#box2{
+    background-color: #f5cece;
+    border: 2px solid #f13939;
+    color: #f13939;
 }
 .box3{
-    display: inline-flex;
-    width: 130px;
-    height: 120px;
-    box-shadow: 130px 120px #faf7f7;
-    color: grey;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-radius: 5px;
+    background-color: #e6dfdf;
 }
 .box4{
-    display: inline-flex;
-    width: 130px;
-    height: 120px;
-    box-shadow: 130px 120px #faf7f7;
-    color: grey;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-radius: 5px;
+    background-color: #e6dfdf;
 }
 .box5{
+    background-color: #e6dfdf;
+}
+.penta-width{
     display: inline-flex;
-    width: 130px;
-    height: 120px;
-    box-shadow: 130px 120px #faf7f7;
-    color: grey;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 30px;
+    height: 70px;
+    margin-left: 3%;
+    margin-left: 3%;
+    padding-left: 10px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 5px;
 }
 .tri-width{
@@ -130,14 +117,8 @@ h3{
     padding-bottom: 30px;
     border-radius: 5px;
 }
-.donate-plan{
-    position: relative;
-}
 #food-family{
-    
     background-color: #b8f3df;
-    top: 15px;
-    left: 15px;
 }
 #shelter-family{
     background-color: #f5cece;
@@ -158,14 +139,7 @@ h3{
     margin-top: 80px;
     margin-bottom: 80px;
 }
-.my-updates{
-    text-align: center;
-}
-.my-updates p{
-    color: gray;
-}
 footer p{
-    text-align: center;
     color: white;
     font-family: 'Poppins', sans-serif;
 }
